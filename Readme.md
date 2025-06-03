@@ -4,7 +4,7 @@
 
 ![Naukri Bot Demo](demo.gif)
 
-> ✅ You can check the full [video demo here](https://github.com/visionEye0/Naukri-Auto-Apply-Bot/assets/your_video_link.mp4) (or see instructions below on how to embed).
+
 
 ---
 
@@ -61,9 +61,6 @@ python main.py -k "python developer, backend" -e 2 -l "Bangalore,Remote" -n 10 -
 | `-p`   | `[password]`       | Your Naukri account's password                            | ✅ Yes    |
 
 
-📹 Demo
-
-![Demo GIF](demo.gif)
 
 ## ⚠️ Disclaimer
 
